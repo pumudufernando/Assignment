@@ -1,0 +1,92 @@
+2020-05-12 11:57:56,755 INFO c.a.p.MainClass [restartedMain] Starting MainClass on Pumudu with PID 5572 (E:\testing\com.assignment.project\target\classes started by Pumudu Fernando in E:\testing\com.assignment.project)
+2020-05-12 11:57:56,758 INFO c.a.p.MainClass [restartedMain] No active profile set, falling back to default profiles: default
+2020-05-12 11:57:56,800 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 5.2.4.Final
+2020-05-12 11:58:01,008 INFO o.a.c.c.StandardService [restartedMain] Starting service Tomcat
+2020-05-12 11:58:01,010 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet Engine: Apache Tomcat/8.5.6
+2020-05-12 11:58:01,504 INFO o.a.c.c.C.[.[.[/] [localhost-startStop-1] Initializing Spring embedded WebApplicationContext
+2020-05-12 11:58:01,504 INFO o.s.w.c.ContextLoader [localhost-startStop-1] Root WebApplicationContext: initialization completed in 4673 ms
+2020-05-12 11:58:02,452 INFO o.s.w.s.m.m.a.RequestMappingHandlerAdapter [restartedMain] Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@70255be6: startup date [Tue May 12 11:57:56 IST 2020]; root of context hierarchy
+2020-05-12 11:58:02,713 INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping [restartedMain] Mapped "{[/smartkent/liftsimulation/calculation/{pickupfloor}/{dropupfloor}],methods=[GET]}" onto public com.assignment.project.model.TimeModel com.assignment.project.controller.LiftController.getTransByLimitandAccno(int,int)
+2020-05-12 11:58:02,718 INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping [restartedMain] Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2020-05-12 11:58:02,719 INFO o.s.w.s.m.m.a.RequestMappingHandlerMapping [restartedMain] Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2020-05-12 11:58:02,786 INFO o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-12 11:58:02,786 INFO o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-12 11:58:02,866 INFO o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2020-05-12 11:58:03,403 INFO o.s.j.e.a.AnnotationMBeanExporter [restartedMain] Registering beans for JMX exposure on startup
+2020-05-12 11:58:03,455 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2020-05-12 11:58:03,503 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler [http-nio-8090]
+2020-05-12 11:58:03,616 INFO o.a.t.u.n.NioSelectorPool [restartedMain] Using a shared selector for servlet write/read
+2020-05-12 11:58:03,680 INFO c.a.p.MainClass [restartedMain] Started MainClass in 8.241 seconds (JVM running for 9.993)
+2020-05-12 11:59:49,847 INFO o.a.c.c.C.[.[.[/] [http-nio-8090-exec-2] Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-05-12 11:59:49,847 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-2] FrameworkServlet 'dispatcherServlet': initialization started
+2020-05-12 11:59:49,972 INFO o.s.w.s.DispatcherServlet [http-nio-8090-exec-2] FrameworkServlet 'dispatcherServlet': initialization completed in 125 ms
+2020-05-12 11:59:50,719 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-2] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "8",
+  "liftId" : "1",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:00:39,768 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-3] {
+  "direction" : "down",
+  "person" : "1",
+  "floor" : "1",
+  "liftId" : "1",
+  "state" : "TO_PICKUP"
+}
+2020-05-12 12:01:15,875 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-4] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "9",
+  "liftId" : "2",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:01:45,357 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-5] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "8",
+  "liftId" : "1",
+  "state" : "TO_PICKUP"
+}
+2020-05-12 12:03:46,286 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-8] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "5",
+  "liftId" : "1",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:09:57,965 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-1] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "6",
+  "liftId" : "1",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:10:09,011 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-2] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "6",
+  "liftId" : "2",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:25:17,375 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-5] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "10",
+  "liftId" : "1",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:31:46,099 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-8] {
+  "direction" : "up",
+  "person" : "1",
+  "floor" : "10",
+  "liftId" : "2",
+  "state" : "TO_DROPOFF"
+}
+2020-05-12 12:32:11,364 INFO c.a.p.s.LiftServiceImpl [http-nio-8090-exec-9] {
+  "direction" : "down",
+  "person" : "1",
+  "floor" : "1",
+  "liftId" : "1",
+  "state" : "TO_PICKUP"
+}
